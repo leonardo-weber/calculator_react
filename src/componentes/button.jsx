@@ -6,6 +6,6 @@ export default props => {
     ${props.operator ? 'operators' : ''}
     ${props.twocolumns ? 'twocolumns' : ''}
     ${props.treecolumns ? 'treecolumns' : ''} `} 
-    
-    > {props.label} </button>
+    onClick = {e => props.click && props.click(props.label)}
+    >  {props.label} </button>
 }
