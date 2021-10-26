@@ -1,7 +1,7 @@
 import react, { Component } from "react";
 import './calculator.css'
-import Button from "./button";
-import Display from "./display";
+import Button from "../componentes/button";
+import Display from "../componentes/display";
 
 
 export default class Calculadora extends Component {
@@ -32,7 +32,7 @@ export default class Calculadora extends Component {
             <div className = 'calculator'> 
             
                 <Display value = '100' />
-                <Button click = {this.clearDisplay}treecolumns label = 'AC'/>
+                <Button click = {this.clearDisplay} treecolumns label = 'AC'/>
                 <Button operator label = '/'/>
                 <Button label = '7'/>
                 <Button label = '8'/>
