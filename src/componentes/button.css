@@ -2,7 +2,7 @@
     background-color: azure;
     border: 0px 2px solid black;
     font-size: 1.6em;
-    outline: none;
+    outline: none;  
 }
 
 .button:active {
